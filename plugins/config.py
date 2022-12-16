@@ -2,9 +2,9 @@ import os
 
 class Config(object):
     # get a token from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5626153444:AAHqq7HFlZ3JIegBPkbYK7wwKr6MTzQU2S0")
     # The Telegram API things
-    APP_ID = int(os.environ.get("APP_ID", 12345))
+    APP_ID = int(os.environ.get("APP_ID", 11508650))
     API_HASH = os.environ.get("API_HASH")
     # Get these values from my.telegram.org
     # Banned Unwanted Members..
@@ -29,7 +29,7 @@ class Config(object):
     # watermark file
     DEF_WATER_MARK_FILE = ""
     # your telegram id
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "1661411006"))
     # Update channel for Force Subscribe
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
     # database session name, example: xurluploader
@@ -39,7 +39,7 @@ class Config(object):
     
     PRO_USERS = list(set(int(x) for x in os.environ.get("PRO_USERS", "0").split()))
     PRO_USERS.append(OWNER_ID)
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-100"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001648014461"))
     BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", "False"))
     # maximum message length in Telegram
     MAX_MESSAGE_LENGTH = 4096
